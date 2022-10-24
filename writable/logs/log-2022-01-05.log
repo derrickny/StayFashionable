@@ -1,0 +1,47 @@
+ERROR - 2022-01-05 01:31:24 --> Column 'added_by' cannot be null
+CRITICAL - 2022-01-05 01:31:24 --> Column 'added_by' cannot be null
+#0 C:\xampp\htdocs\cig4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cig4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cig4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cig4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cig4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(329): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processapi()
+#10 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-05 06:20:44 --> Undefined variable $user
+#0 C:\xampp\htdocs\cig4\app\Views\auth\category_show.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/category_s...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(55): view('auth/category_s...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->categoryshow()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-05 06:21:12 --> Unclosed '{' on line 18
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/category_d...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/category_d...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-05 09:45:33 --> Invalid file: Pages/register.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/register....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/register', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(32): view('Pages/register', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processregister()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

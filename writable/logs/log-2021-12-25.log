@@ -1,0 +1,274 @@
+CRITICAL - 2021-12-25 01:14:50 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processite...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processite...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-25 01:15:39 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:25:29 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\auth\user_list.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_list....', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(39): view('auth/user_list....')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->listusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-25 01:26:01 --> Unclosed '(' does not match ']'
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processite...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processite...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-25 01:28:26 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:28:33 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\auth\user_list.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_list....', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(39): view('auth/user_list....')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->listusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-25 01:42:39 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:45:43 --> Call to a member function hasMoved() on null
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:46:28 --> Call to a member function hasMoved() on null
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:47:42 --> Call to a member function isvalid() on null
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:54:14 --> Call to undefined function App\Controllers\hasFile()
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:54:38 --> Call to undefined function App\Controllers\has_file()
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:55:21 --> Call to a member function isvalid() on null
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 01:56:51 --> syntax error, unexpected single-quoted string "product_price", expecting "]"
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processite...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processite...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-25 01:57:02 --> Column 'product_image' cannot be null
+CRITICAL - 2021-12-25 01:57:02 --> Column 'product_image' cannot be null
+#0 C:\xampp\htdocs\cig4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cig4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cig4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cig4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cig4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(269): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#10 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-12-25 02:00:35 --> syntax error, unexpected token "="
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processite...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processite...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-25 02:00:46 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processite...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processite...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-25 02:00:57 --> Class "App\Controllers\App\Models\ItemModel" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 02:01:51 --> Class "App\Controllers\App\Models\ItemModel" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-12-25 02:03:59 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`tbl_product`, CONSTRAINT `tbl_product_ibfk_1` FOREIGN KEY (`subcategory_id`) REFERENCES `tbl_subcategories` (`subcategory_id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+CRITICAL - 2021-12-25 02:03:59 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`tbl_product`, CONSTRAINT `tbl_product_ibfk_1` FOREIGN KEY (`subcategory_id`) REFERENCES `tbl_subcategories` (`subcategory_id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\cig4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cig4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cig4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cig4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cig4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(269): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#10 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-25 02:09:10 --> Unknown column 'subcategory_id' in 'field list'
+CRITICAL - 2021-12-25 02:09:10 --> Unknown column 'subcategory_id' in 'field list'
+#0 C:\xampp\htdocs\cig4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cig4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cig4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cig4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cig4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(269): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#10 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-25 02:10:27 --> Column 'subcategory' cannot be null
+CRITICAL - 2021-12-25 02:10:27 --> Column 'subcategory' cannot be null
+#0 C:\xampp\htdocs\cig4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cig4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cig4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cig4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cig4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(269): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#10 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-25 02:12:54 --> Column 'subcategory' cannot be null
+CRITICAL - 2021-12-25 02:12:54 --> Column 'subcategory' cannot be null
+#0 C:\xampp\htdocs\cig4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cig4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cig4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cig4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cig4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(269): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#10 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-25 02:13:40 --> Column 'subcategory' cannot be null
+CRITICAL - 2021-12-25 02:13:40 --> Column 'subcategory' cannot be null
+#0 C:\xampp\htdocs\cig4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cig4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cig4\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cig4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cig4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cig4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(269): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#10 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-12-25 02:13:56 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\cig4\app\Controllers\Auth.php on line 270 and exactly 2 expected
+#0 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(270): CodeIgniter\HTTP\RedirectResponse->with('Successfully ad...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-25 02:14:16 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\cig4\app\Controllers\Auth.php on line 270 and exactly 2 expected
+#0 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(270): CodeIgniter\HTTP\RedirectResponse->with('Successfully ad...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-25 10:13:36 --> Call to undefined function App\Controllers\direct()
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-25 10:14:06 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\cig4\app\Controllers\Auth.php on line 273 and exactly 2 expected
+#0 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(273): CodeIgniter\HTTP\RedirectResponse->with('Successfully ad...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processitem()
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

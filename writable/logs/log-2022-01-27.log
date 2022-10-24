@@ -1,0 +1,15 @@
+CRITICAL - 2022-01-27 01:35:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processlogin()
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-27 02:11:25 --> Too few arguments to function App\Controllers\Listproduct::productByName(), 0 passed in C:\xampp\htdocs\cig4\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Listproduct->productByName()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listproduct))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

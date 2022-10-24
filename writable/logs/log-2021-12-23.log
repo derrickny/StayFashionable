@@ -1,0 +1,94 @@
+CRITICAL - 2021-12-23 08:38:22 --> Invalid file: admin/users/user_add.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users/use...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/use...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(35): view('admin/users/use...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-23 08:39:50 --> Undefined variable $lists
+#0 C:\xampp\htdocs\cig4\app\Views\auth\category_show.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/category_s...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(55): view('auth/category_s...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->categoryshow()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-23 08:42:29 --> Unmatched '}'
+#0 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/category_s...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(55): view('auth/category_s...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->categoryshow()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-23 08:48:08 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\auth\user_list.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_list....', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(39): view('auth/user_list....')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->listusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-23 08:51:05 --> Invalid file: auth/item_show.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/item_show....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/item_show....', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(47): view('auth/item_show....')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->itemshow()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-23 08:54:54 --> Invalid file: auth/subcategories_show.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/subcategor...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/subcategor...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(67): view('auth/subcategor...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->subcategoryshow()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-23 08:55:35 --> Invalid file: auth/subcategories_show.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/subcategor...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/subcategor...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(67): view('auth/subcategor...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->subcategoryshow()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-23 08:55:44 --> Invalid file: auth/subcategories_show.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/subcategor...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/subcategor...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(67): view('auth/subcategor...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->subcategoryshow()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-23 11:50:24 --> Invalid file: auth/item_show.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/item_show....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/item_show....', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(47): view('auth/item_show....')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->itemshow()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,104 @@
+CRITICAL - 2021-12-26 00:53:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cig4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_list....', Array, true)
+#3 C:\xampp\htdocs\cig4\app\Controllers\pages.php(39): view('auth/user_list....')
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->listusers()
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-26 00:56:39 --> Undefined property: stdClass::$username
+#0 C:\xampp\htdocs\cig4\app\Views\auth\user_list.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_list....', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(39): view('auth/user_list....')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->listusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-26 00:57:03 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\cig4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_list....', Array, true)
+#3 C:\xampp\htdocs\cig4\app\Controllers\pages.php(39): view('auth/user_list....')
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->listusers()
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-26 00:57:54 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\auth\user_list.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 156)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_list....', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(39): view('auth/user_list....')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->listusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-26 02:01:41 --> Invalid file: admin/users/user_edit.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users/use...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/use...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(204): view('admin/users/use...', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->user_edit(' 5')
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-26 02:19:43 --> Invalid file: auth/user_edit.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/user_edit....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/user_edit....', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(73): view('auth/user_edit....')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->useredit('5')
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-26 02:21:25 --> Undefined variable $user
+#0 C:\xampp\htdocs\cig4\app\Views\auth\users_edit.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/users_edit...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(73): view('auth/users_edit...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->useredit('5')
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-26 02:37:40 --> Undefined property: stdClass::$password
+#0 C:\xampp\htdocs\cig4\app\Views\auth\users_edit.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('auth/users_edit...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(73): view('auth/users_edit...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->useredit('5')
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-26 04:57:58 --> Too few arguments to function App\Controllers\Auth::user_edit(), 0 passed in C:\xampp\htdocs\cig4\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->user_edit()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-26 05:07:37 --> Too few arguments to function App\Controllers\Auth::user_edit(), 0 passed in C:\xampp\htdocs\cig4\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->user_edit()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

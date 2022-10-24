@@ -1,0 +1,472 @@
+CRITICAL - 2021-12-12 07:29:53 --> Invalid file: Pages/register.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/register....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/register', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(28): view('Pages/register', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processregister()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 07:33:47 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processlog...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processlog...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 07:34:13 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processlog...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processlog...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 07:36:41 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processlog...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processlog...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 07:50:38 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processlog...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processlog...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 07:51:22 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processlog...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processlog...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 07:51:38 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processlog...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processlog...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 08:08:50 --> Invalid file: Pages/clothes.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/clothes.p...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/clothes', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/clothes', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:12:55 --> Invalid file: Pages/clothes.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/clothes.p...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/clothes', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/clothes', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:14:46 --> Invalid file: Pages/clothe.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/clothe.ph...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/clothe', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/clothe', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:16:18 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\xampp\htdocs\cig4\app\Controllers\Auth.php on line 118
+#0 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): CodeIgniter\HTTP\RedirectResponse->to('Pages/clothes', Array)
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 08:18:57 --> Invalid file: Pages/clothes.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/clothes.p...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/clothes', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/clothes', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:24:26 --> Invalid file: Pages/clothes.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/clothes.p...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/clothes', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/clothes', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:24:31 --> Invalid file: Pages/clothes.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/clothes.p...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/clothes', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/clothes', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:25:59 --> Invalid file: Pages/clothes.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/clothes.p...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/clothes', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/clothes', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:28:14 --> Invalid file: Pages/category.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/category....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/category', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/category', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:32:13 --> Invalid file: Pages/category.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/category....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/category', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/category', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:34:09 --> Invalid file: Pages/category.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/category....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/category', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/category', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:34:10 --> Invalid file: Pages/category.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/category....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/category', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/category', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:34:17 --> Invalid file: Pages/category.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/category....')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/category', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(118): view('Pages/category', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:34:24 --> Invalid file: Pages/create.php
+#0 C:\xampp\htdocs\cig4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/create.ph...')
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('Pages/create', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Category.php(24): view('Pages/create', Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Category->processcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 09:07:50 --> Class "App\Models\AdminSubcategory" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:08:27 --> Class "App\Models\AdminSubcategory" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:08:41 --> Class "App\Models\AdminSubcategory" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:08:55 --> Class "App\Models\AdminSubcategory" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:11:34 --> Class "App\Models\AdminSubcategory" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:11:42 --> Class "App\Models\AdminSubcategory" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:11:50 --> Class "App\Models\AdminSubcategory" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:22:23 --> Class "App\Models\SubcategoryModel" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:22:29 --> Class "App\Models\SubcategoryModel" not found
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:28:43 --> There is no data to insert.
+#0 C:\xampp\htdocs\cig4\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(163): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 09:28:50 --> There is no data to insert.
+#0 C:\xampp\htdocs\cig4\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(163): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 09:29:48 --> There is no data to insert.
+#0 C:\xampp\htdocs\cig4\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(163): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 09:30:10 --> There is no data to insert.
+#0 C:\xampp\htdocs\cig4\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(163): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 09:30:26 --> There is no data to insert.
+#0 C:\xampp\htdocs\cig4\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cig4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(163): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 09:38:10 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cig4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cig4\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(167): redirect('Pages/subcatego...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 09:40:43 --> Call to undefined function App\Controllers\with()
+#0 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-12 09:43:19 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cig4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cig4\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cig4\app\Controllers\Auth.php(167): redirect('admin/subcatego...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Auth->processsubcategory()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 10:00:26 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\cig4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/processcat...')
+#1 C:\xampp\htdocs\cig4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/processcat...')
+#2 C:\xampp\htdocs\cig4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-12 13:44:43 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\index.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 13:58:37 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 14:03:45 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 14:12:39 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 14:12:46 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 14:18:09 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 14:23:52 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 14:28:42 --> Undefined variable $userlist
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 14:40:27 --> Unmatched '}'
+#0 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/ind...', Array, true)
+#2 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/ind...')
+#3 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#4 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 14:56:27 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\users_list.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/use...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/use...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 14:56:32 --> Undefined variable $users
+#0 C:\xampp\htdocs\cig4\app\Views\admin\users\users_list.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\cig4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cig4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cig4\system\Common.php(1097): CodeIgniter\View\View->render('admin/users/use...', Array, true)
+#4 C:\xampp\htdocs\cig4\app\Controllers\pages.php(38): view('admin/users/use...')
+#5 C:\xampp\htdocs\cig4\system\CodeIgniter.php(824): App\Controllers\Pages->addusers()
+#6 C:\xampp\htdocs\cig4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\cig4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cig4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cig4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
